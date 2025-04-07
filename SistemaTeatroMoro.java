@@ -38,7 +38,6 @@ public class SistemaTeatroMoro {
             System.out.println("2. Salir");
             System.out.println("Elija una opcion:");
             respuestaCompra = Integer.parseInt(scanner.nextLine());
-            //System.out.println(respuestaCompra);
                 
             
            
@@ -66,7 +65,7 @@ public class SistemaTeatroMoro {
                 nombreUbicacion = "VIP";
                 valorEntradaApagar = (int) (VIP * descuento);            
                 descuentoAplicado = VIP - valorEntradaApagar;
-                //System.out.println("Resumen de la compra");
+
                 System.out.println("Ubicacion: "+nombreUbicacion);
                 System.out.println("Precio base: $"+VIP);
                 System.out.println("Descuento aplicado: $"+descuentoAplicado);
